@@ -91,7 +91,6 @@
       "group": "Linkable Integrations",
       "pages": [
         "linkable/lastfm",
-        "linkable/twitter",
         "linkable/twitch"
       ],
       "icon": "icons"
