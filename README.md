@@ -25,5 +25,5 @@ to power and enhance it
 
 ## 😕 Issues
 
-- If you believe there is an issue, you can pull request and edit by following the steps in "📓 Contributing" or by opening a [issue](https://github.com/adammbh/greed-docs/issues)
+- If you believe there is an issue, you can pull request and edit by following the steps in "📓 Contributing" or by opening a [issue](https://github.com/x32u/docs/issues)
     - When opening an issue, please ensure that you are using [good practices](https://rewind.com/blog/best-practices-for-using-github-issues/)
