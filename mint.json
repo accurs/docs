@@ -103,6 +103,35 @@
         "overview/translations",
         "overview/fake-permissions"
       ]
+    },
+    {
+      "group": "Applications",
+      "pages": [
+        "applications/overview"
+      ]
+    },
+    {
+      "group": "Activities",
+      "pages": [
+        "activities/overview"
+      ]
+    },
+    {
+      "group": "Social",
+      "pages": [
+        "applications/social/tiktok",
+        "applications/social/instagram"
+      ]
+    },
+    {
+      "group": "Image Manipulation",
+      "pages": [
+        "applications/image-manipulation/overview",
+        "applications/image-manipulation/media",
+        "applications/image-manipulation/animate",
+        "applications/image-manipulation/filter",
+        "applications/image-manipulation/distort"
+      ]
     }
   ],
   "footerSocials": {
