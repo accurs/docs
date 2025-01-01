@@ -1,6 +1,6 @@
 <center><a href="https://evict.bot/discord" target="_blank"><img src="https://r2.evict.bot/Greed%20Discovery%20Cover.png" alt="Evict Discovery Cover"/></a</center>
 
-# 👋 The official repostiry for greed documentation
+# 👋 The official repostiry for Evict documentation
 
 Over here, you can see the code for the live [documentation page](https://docs.evict.bot) which uses the [mintlify/starter](https://github.com/mintlify/starter) kit
 to power and enhance it
