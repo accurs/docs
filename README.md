@@ -1,8 +1,8 @@
-<center><a href="https://greed.best/discord" target="_blank"><img src="https://r2.greed.best/Greed%20Discovery%20Cover.png" alt="Greed Discovery Cover"/></a</center>
+<center><a href="https://evict.bot/discord" target="_blank"><img src="https://r2.evict.bot/Greed%20Discovery%20Cover.png" alt="Evict Discovery Cover"/></a</center>
 
 # 👋 The official repostiry for greed documentation
 
-Over here, you can see the code for the live [documentation page](https://docs.greed.best) which uses the [mintlify/starter](https://github.com/mintlify/starter) kit
+Over here, you can see the code for the live [documentation page](https://docs.evict.bot) which uses the [mintlify/starter](https://github.com/mintlify/starter) kit
 to power and enhance it
 
 ## ⚙️ Getting Started

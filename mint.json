@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "greed",
+  "name": "evict",
   "logo": {
     "dark": "/favicon.svg",
     "light": "/favicon.svg"
@@ -30,12 +30,12 @@
   "topbarLinks": [
     {
       "name": "Discord",
-      "url": "https://discord.gg/greedbot"
+      "url": "https://discord.gg/evict"
     }
   ],
   "topbarCtaButton": {
     "name": "Home",
-    "url": "https://greed.best"
+    "url": "https://evict.bot"
   },
   "navigation": [
     {
@@ -96,7 +96,7 @@
     }
   ],
   "footerSocials": {
-    "discord": "https://greed.best/discord",
-    "github": "https://github.com/adammbh/greed-docs"
+    "discord": "https://evict.bot/discord",
+    "github": "https://github.com/x32u/docs"
   }
 }
