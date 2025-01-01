@@ -2,29 +2,26 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "evict",
   "logo": {
-    "dark": "/favicon.svg",
-    "light": "/favicon.svg"
+    "dark": "/evict-main.svg",
+    "light": "/evict-main.svg"
   },
   "analytics": {
-    "posthog": {
-      "apiKey": "phc_ds8DUIOmRamXtLOekJPgdUJ5sIYxUyagooTn3Y3ZI0k"
-    },
     "ga4": {
       "measurementId": "G-ZHEH4NB1B7"
     }
   },
-  "favicon": "favicon.svg",
+  "favicon": "evict-main.svg",
   "feedback": {
     "thumbsRating": true,
     "suggestEdit": true
   },
   "colors": {
-    "primary": "#7593db",
-    "light": "#7593db",
-    "dark": "#7593db",
+    "primary": "#7B68EE",
+    "light": "#9370DB",
+    "dark": "#483D8B",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FF69B4",
+      "to": "#9370DB"
     }
   },
   "topbarLinks": [
@@ -37,6 +34,16 @@
     "name": "Home",
     "url": "https://evict.bot"
   },
+  "tabs": [
+    {
+      "name": "Evict Applications",
+      "url": "applications"
+    },
+    {
+      "name": "Evict Activities",
+      "url": "activities"
+    }
+  ],
   "navigation": [
     {
       "group": "Get Started",
