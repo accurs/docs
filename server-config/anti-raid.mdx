@@ -39,6 +39,8 @@ Subcommand: `antiraid joins` <br /> Module: `antiraid` <br /> Description: Secur
   <Tab title="Punishment Types">
     `ban`: Bans the user when threshold is met <br />
     `kick`: Kicks the user when threshold is met 
+    `timeout`: Times the user when threshold is met
+    `strip`: Strips the users roles when threshold is met 
   </Tab>
 </Tabs>
 
@@ -58,6 +60,29 @@ Subcommand: `antiraid mentions` <br /> Module: `antiraid` <br /> Description: Se
   <Tab title="Punishment Types">
     `ban`: Bans the user when threshold is met <br />
     `kick`: Kicks the user when threshold is met 
+    `timeout`: Times the user when threshold is met
+    `strip`: Strips the users roles when threshold is met 
+  </Tab>
+</Tabs>
+
+<br />
+
+Subcommand: `antiraid automation` <br /> Module: `antiraid` <br /> Description: Security against accounts which are only active on browser.
+
+<div id="mentions"/>
+<Tabs>
+  <Tab title="Example">
+  `antiraid automation true --punishment ban`
+  <Frame caption="Enabling antiraid automation and setting flags">
+  <img src="/images/security/antiraid/antiraid_automation.gif" />
+  </Frame>
+  </Tab>
+  <Tab title="Syntax">`antiraid mentions <status> [...flags]`</Tab>
+  <Tab title="Punishment Types">
+    `ban`: Bans the user when threshold is met <br />
+    `kick`: Kicks the user when threshold is met 
+    `timeout`: Times out the user when a selfbot is detected
+    `strip`: Strip roles when a selfbot is detected
   </Tab>
 </Tabs>
 
