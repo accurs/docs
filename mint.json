@@ -69,7 +69,8 @@
         {
           "group": "Roles",
           "pages": [
-            "server-config/booster-roles"
+            "server-config/booster-roles",
+            "server-config/vanity-roles"
           ],
           "icon": "user"
         },
@@ -90,7 +91,6 @@
       "group": "Linkable Integrations",
       "pages": [
         "linkable/lastfm",
-        "linkable/twitter",
         "linkable/twitch"
       ],
       "icon": "icons"
