@@ -43,8 +43,8 @@
       "url": "applications"
     },
     {
-      "name": "Evict Activities",
-      "url": "activities"
+      "name": "Evict Activity",
+      "url": "activity"
     }
   ],
   "navigation": [
@@ -112,9 +112,10 @@
       ]
     },
     {
-      "group": "Activities",
+      "group": "Activity",
       "pages": [
-        "activities/overview"
+        "activity/overview",
+        "activity/setup"
       ]
     },
     {
