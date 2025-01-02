@@ -108,7 +108,8 @@
     {
       "group": "Applications",
       "pages": [
-        "applications/overview"
+        "applications/overview",
+        "applications/roleplay"
       ]
     },
     {
