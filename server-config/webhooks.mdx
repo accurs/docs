@@ -1,0 +1,125 @@
+---
+title: "Webhooks"
+description: "Learn how to create webhooks, edit and send them to specific channels for creating embeds such as rules with your own customisation utilizing `;webhook`."
+icon: "screwdriver-wrench"
+---
+
+<Note>
+    This requires process the `manage_webhooks` permission.
+</Note>
+
+## Create a webhook
+Command:`;webhook create` <br />
+Description: Create a new webhook. <br />
+
+<Tabs>
+    <Tab title="Example">
+        <Frame>
+            <img src="https://media.discordapp.net/attachments/1334725117221015582/1334725313548124240/image.png?ex=679d9350&is=679c41d0&hm=9f9392cc63ef0f6470feefbe72e4052b1fb6c7eb5a02bf230ebfaae75bf1e424&=&format=webp&quality=lossless"/>
+        </Frame>
+    </Tab>
+    <Tab title="Syntax">
+       ```
+       ;webhook create [channel] [name]
+       Example: ;webhook create #general rules!
+       ```
+    </Tab>
+</Tabs>
+
+<Tip>
+    You may want to copy the indentifier if you're going to utilize the webhook right afterwards. If lost, use `;webhook list` to retrieve it.
+</Tip>
+
+
+
+## Sending messages with webhooks
+Command:`;webhook forward` <br />
+Description: Forward a message through a webhook. <br />
+
+<Tabs>
+    <Tab title="Example">
+        <Frame>
+           <img src="https://media.discordapp.net/attachments/1334725117221015582/1334732494704218265/image.png?ex=679d9a00&is=679c4880&hm=d44f0aaee7f21eba2fc2d21a7e5d6344400de03ef00ee9152d1ae478859f683a&=&format=webp&quality=lossless"/>
+        </Frame>
+    </Tab>
+    <Tab title="Syntax">
+       ```
+       ;webhook forward (identifier) (script or message)
+       Example: ;webhook forward 6JwFAGlQ Hello, how are you?
+       ```
+    </Tab>
+</Tabs>
+
+
+
+## Editing webhook messages
+Command:`;webhook edit` <br />
+Description: Edit a message sent by a webhook. <br />
+
+<Tabs>
+    <Tab title="Input">
+     <img src="https://media.discordapp.net/attachments/1331173093124608065/1334741245834170458/image.png?ex=679da227&is=679c50a7&hm=d1861d9cc26fe405c5653fb4aba83a9fc81c29d8ee42abcddef887048646b36b&=&format=webp&quality=lossless"/>
+    </Tab>
+    <Tab title="Output">
+        <Frame>
+           <img src="https://media.discordapp.net/attachments/1334725117221015582/1334740617141555210/image.png?ex=679da191&is=679c5011&hm=48ef3344ea197f077bacfb4dbf51c8845d7533cca589f721143ac0a197c44734&=&format=webp&quality=lossless"/>
+        </Frame>
+    </Tab>
+    <Tab title="Syntax">
+    ```
+    Syntax: ;webhook edit (message id) (script or message)
+    Example: ;webhook forward 6JwFAGlQ Hello, how are you? 
+    ```
+    </Tab>
+</Tabs>
+<Warning>
+    This doesn't customize the name, profile, or how the webhook looks whatsoever, rather a message it sent.
+</Warning>
+
+## Customising your webhook
+Although we don't provide a direct command to customize your webhooks, you can do it through discord instead:
+
+<Tabs>
+    <Tab title="Example">
+        <Frame>
+           <img src="https://media.discordapp.net/attachments/1331173093124608065/1334733609894023208/image.png?ex=679d9b0a&is=679c498a&hm=880a2840a48a9431a7047311cc6d4d2ad314fea6d6b99e006fc43d0817daaa9b&=&format=webp&quality=lossless"/>
+        </Frame>
+    </Tab>
+</Tabs>
+
+
+
+## How to view a list of all your webhooks
+Command:`;webhook list` <br />
+Description: View all the existing webhooks across all channels <br />
+
+<Tabs>
+    <Tab title="Example">
+        <Frame>
+           <img src="https://media.discordapp.net/attachments/1334725117221015582/1334735728587833364/image.png?ex=679d9d03&is=679c4b83&hm=20f9482df83dc683aab84cb22e7e14e11794ac0b8c61a6d34d0482e3095180b7&=&format=webp&quality=lossless"/>
+        </Frame>
+    </Tab>
+    <Tab title="Syntax">
+    ```
+    Syntax: ;webhook list 
+    ```
+    </Tab>
+</Tabs>
+
+## Deleting your webhooks
+Command:`;webhook delete` <br />
+Description: Delete an exiting webhook. <br />
+
+<Tabs>
+    <Tab title="Example">
+        <Frame>
+           <img src="https://media.discordapp.net/attachments/1334725117221015582/1334742796099391549/image.png?ex=679da398&is=679c5218&hm=7101f7aa832f16e2f1841467324005876a47fa19662f01837e20bd7ff72ceddc&=&format=webp&quality=lossless"/>
+        </Frame>
+    </Tab>
+    <Tab title="Syntax">
+    ```
+    Syntax: ;webhook delete (identifier)
+    Example: ;webhook delete 6JwFAGlQ
+    ```
+    </Tab>
+</Tabs>
