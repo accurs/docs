@@ -38,6 +38,31 @@ User variables are also useful in areas such as welcome but can also be used in 
 | `{user.created_at}`        | Shows the user's account creation date   | `2020-05-01`                         |
 | `{user.joined_at}`         | Shows the user's join date               | `2021-06-15`                         |
 
+
+## Lastfm Variables
+Lastfm variables are useful in areas where you want to display both track and artist info on your `;nowplaying` embed.
+<Tabs>
+<Tab title="Track">
+| Variable                  | Output                                     | Example                                                           |
+|---------------------------|--------------------------------------------|-------------------------------------------------------------------|
+| `{track.name}`           | Shows the track's name                    | `30 For 30 (with Kendrick Lamar)`                                 |
+| `{track.image}`          | Shows the track's image                   | `https://lastfm.freetls.fastly.net/i/u/300x300/nums.jpg`          |
+| `{track.plays}`          | Shows the track's play count              | `16`                                                             |
+| `{track.url}`            | Shows the track's URL                     | `https://www.last.fm/music/SZA/_/30+For+30+(with+Kendrick+Lamar)`                        |
+  </Tab>
+
+  <Tab title="Artist">
+| Variable                  | Output                                     | Example                                                           |
+|---------------------------|--------------------------------------------|-------------------------------------------------------------------|
+| `{artist.name}`           | Shows the artist's name                    | `Kendrick Lamar`                                                  |
+| `{artist.image}`          | Shows the artist's image                   | `https://lastfm.freetls.fastly.net/i/u/300x300/nums.jpg`          |
+| `{artist.plays}`          | Shows the artist's play count              | `609`                                                             |
+| `{artist.url}`            | Shows the artist's URL                     | `https://www.last.fm/music/Kendrick+Lamar`                        |
+  </Tab>
+
+</Tabs>
+
+
 # Social Variables
 Variables that can be used for their specific category/social.
 
