@@ -3,7 +3,7 @@
 # 👋 The official repository for Evict documentation
 
 Over here, you can see the code for the live [documentation page](https://docs.evict.bot) which uses the [mintlify/starter](https://github.com/mintlify/starter) kit
-to power and enhance it
+to power and enhance it.
 
 ## ⚙️ Getting Started
 
