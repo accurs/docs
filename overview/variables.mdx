@@ -10,33 +10,88 @@ Variables that can be used across a wide range of commands and invoke messages.
 ## Guild Variables
 Guild variables can be useful in areas such as welcome messages when displaying your overall member count & more.
 
-| Variable                        | Output                                    | Example                        |
-|----------------------------|-----------------------------------------|-------------------------------------- |
-| `{guild.name}`             | Shows guild's name                      | `My Discord Server`                   |
-| `{guild.icon}`             | Shows guild's icon                      | `https://r2.evict.bot/evict-new.png`        |
-| `{guild.created_at}`       | Shows the date when the server was created | `2023-08-01`                       |
-| `{guild.count}`            | Shows the member count                  | `1,604`                                |
-| `{guild.boost_count}`      | Shows the number of boosts in the server | `34`                                 |
-| `{guild.booster_count}`    | Shows the number of boosters in the server | `10`                               |
-| `{guild.vanity}`           | Shows the server's vanity code if any    | `/evict`                           |
-| `{guild.boost_tier}`       | Shows the guild's boost level            | `Level 2`                            |
-| `{guild.count.format}`     | Shows the member count in the ordinal format | `1,500th`                        |
-| `{guild.boost_count.format}` | Shows the boosts count in ordinal format | `25th`                             |
-| `{guild.booster_count.format}` | Shows the boosters count in ordinal format | `10th`                         |
+| Variable                          |  Description                   | Example                                              |
+| --------------------------------- | ------------------------------ | ---------------------------------------------------- |
+| `{guild}`                         | Server name                    | `My Server`                                          |
+| `{guild.name}`                    | Server name                    | `My Server`                                          |
+| `{guild.id}`                      | Server ID                      | `123456789012345678`                                 |
+| `{guild.count}`                   | Member count                   | `150`                                                |
+| `{guild.region}`                  | Server region                  | `us-west`                                            |
+| `{guild.shard}`                   | Shard ID                       | `0`                                                  |
+| `{guild.owner_id}`                | Server owner ID                | `123456789012345678`                                 |
+| `{guild.created_at}`              | Server creation timestamp      | `1672574400`                                         |
+| `{guild.emoji_count}`             | Number of emojis in the server | `20`                                                 |
+| `{guild.role_count}`              | Number of roles in the server  | `10`                                                 |
+| `{guild.boost_count}`             | Number of boosts               | `5`                                                  |
+| `{guild.boost_tier}`              | Boost level                    | `2`                                                  |
+| `{guild.preferred_locale}`        | Preferred language             | `en-US`                                              |
+| `{guild.key_features}`            | Key features of the server     | `VIP_REGIONS, ANIMATED_ICON`                         |
+| `{guild.icon}`                    | Server icon URL                | `https://cdn.discordapp.com/icons/.../icon.png`      |
+| `{guild.banner}`                  | Server banner URL              | `https://cdn.discordapp.com/banners/.../banner.png`  |
+| `{guild.splash}`                  | Server splash image            | `https://cdn.discordapp.com/splashes/.../splash.png` |
+| `{guild.discovery}`               | Discovery splash URL           | `https://cdn.discordapp.com/discovery-splashes/...`  |
+| `{guild.max_presences}`           | Max presences                  | `25000`                                              |
+| `{guild.max_members}`             | Max members                    | `50000`                                              |
+| `{guild.max_users}`               | Max users                      | `50000`                                              |
+| `{guild.max_video_channel_users}` | Max users in video channel     | `25`                                                 |
+| `{guild.afk_timeout}`             | AFK timeout in seconds         | `300`                                                |
+| `{guild.afk_channel}`             | AFK channel name               | `AFK Channel`                                        |
+| `{guild.channels}`                | List of all channel names      | `general, rules, music`                              |
+| `{guild.channels_count}`          | Total number of channels       | `10`                                                 |
+| `{guild.text_channels}`           | List of text channels          | `general, rules`                                     |
+| `{guild.text_channels_count}`     | Count of text channels         | `2`                                                  |
+| `{guild.voice_channels}`          | List of voice channels         | `Music, AFK`                                         |
+| `{guild.voice_channels_count}`    | Count of voice channels        | `2`                                                  |
+| `{guild.category_channels}`       | List of category channels      | `Information, Voice`                                 |
+| `{guild.category_channels_count}` | Count of category channels     | `2`                                                  |
+
 
 ## User Variables
 User variables are also useful in areas such as welcome but can also be used in other areas such as invoked messages.
 
-| Variable                        | Output                                    | Example                        |
-|----------------------------|-----------------------------------------|-------------------------------------- |
-| `{user}`                   | Shows user full name with discriminator  | `66adam#0`                           |
-| `{user.name}`              | Shows user's username                    | `66adam`                             |
-| `{user.discriminator}`     | Shows user's discriminator               | `#0`                                 |
-| `{user.id}`                | Shows user's id                          | `123456789012345678`                 |
-| `{user.mention}`           | Mentions the user                        | `@66adam`                            |
-| `{user.avatar}`            | Shows user's avatar                      | `https://example.com/avatar.png`     |
-| `{user.created_at}`        | Shows the user's account creation date   | `2020-05-01`                         |
-| `{user.joined_at}`         | Shows the user's join date               | `2021-06-15`                         |
+| Variable                       | Output                          | Example                                             |
+| ------------------------------ | ------------------------------- | --------------------------------------------------- |
+| `{user}`                       | User's full tag                 | `username#1234`                                     |
+| `{user.id}`                    | User ID                         | `123456789012345678`                                |
+| `{user.mention}`               | Mentions the user               | `<@123456789012345678>`                             |
+| `{user.name}`                  | Username                        | `username`                                          |
+| `{user.tag}`                   | Discriminator tag               | `1234`                                              |
+| `{user.avatar}`                | User's avatar URL               | `https://cdn.discordapp.com/avatars/...`            |
+| `{user.display_avatar}`        | Display avatar URL              | `https://cdn.discordapp.com/avatars/...`            |
+| `{user.created_at}`            | Account creation date           | `2023-01-01 12:00:00`                               |
+| `{user.created_at_timestamp}`  | Account creation timestamp      | `1672574400`                                        |
+| `{user.display_name}`          | Server nickname                 | `Nickname`                                          |
+| `{user.bot}`                   | Whether user is a bot           | `No`                                                |
+| `{user.guild_avatar}`          | User's avatar in the guild      | `https://cdn.discordapp.com/guilds/.../avatars/...` |
+| `{user.joined_at}`             | Date the user joined the server | `2023-01-02 12:00:00`                               |
+| `{user.joined_at_timestamp}`   | Join date timestamp             | `1672660800`                                        |
+| `{user.boost}`                 | Whether the user is boosting    | `Yes`                                               |
+| `{user.boost_since}`           | Boost start date                | `2023-01-03 12:00:00`                               |
+| `{user.boost_since_timestamp}` | Boost start timestamp           | `1672747200`                                        |
+| `{user.color}`                 | User's role color               | `#7289DA`                                           |
+| `{user.top_role}`              | User’s highest role             | `Admin`                                             |
+| `{user.role_list}`             | Roles list without mentions     | `Moderator, Member`                                 |
+| `{user.role_text_list}`        | Roles list with mentions        | `@Moderator, @Member`                               |
+| `{user.join_position}`         | Join position in the server     | `5`                                                 |
+| `{user.join_position_suffix}`  | Join position with suffix       | `5th`                                               |
+
+
+
+## Channel Variables
+Variables to view information about the channel where the script is sent to.
+
+| Variable                   |  Description              | Example                  |
+| -------------------------- | ------------------------- | ------------------------ |
+| `{channel}`                | Channel mention           | `#general`               |
+| `{channel.name}`           | Channel name              | `general`                |
+| `{channel.id}`             | Channel ID                | `123456789012345678`     |
+| `{channel.mention}`        | Channel mention           | `<#123456789012345678>`  |
+| `{channel.type}`           | Channel type              | `text`                   |
+| `{channel.position}`       | Channel's position        | `1`                      |
+| `{channel.topic}`          | Channel topic             | `Welcome to the server!` |
+| `{channel.category_id}`    | Category ID               | `234567890123456789`     |
+| `{channel.category_name}`  | Category name             | `Information`            |
+| `{channel.slowmode_delay}` | Slowmode delay in seconds | `5`                      |
 
 
 ## Lastfm Variables
