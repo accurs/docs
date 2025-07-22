@@ -37,16 +37,6 @@
   "primaryTab": {
     "name": "Evict Bot"
   },
-  "tabs": [
-    {
-      "name": "Evict Applications",
-      "url": "applications"
-    },
-    {
-      "name": "Evict Activity",
-      "url": "activity"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
