@@ -51,15 +51,12 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "changelog",
-        "quickstart",
-        "faq"
+        "index"
       ]
     }
   ],
   "footerSocials": {
     "discord": "https://evict.bot/discord",
-    "github": "https://github.com/x32u/docs"
+    "github": "https://github.com/accurs/docs"
   }
 }
